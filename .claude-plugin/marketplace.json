@@ -1,0 +1,15 @@
+{
+  "name": "oblique-strategies",
+  "description": "Single-plugin marketplace for the oblique-strategies Claude Code plugin.",
+  "owner": {
+    "name": "David Thiel",
+    "url": "https://github.com/lxcode"
+  },
+  "plugins": [
+    {
+      "name": "oblique-strategies",
+      "source": "./",
+      "description": "Offers a randomly drawn Oblique Strategies card, with user approval, when work stalls on a judgment call."
+    }
+  ]
+}

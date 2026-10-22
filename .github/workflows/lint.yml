@@ -1,0 +1,17 @@
+name: lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: astral-sh/setup-uv@v10.3.2
+      - run: uvx ruff check .
+      - run: uvx ruff format --check .
+      - run: uvx ty check skills/oblique-strategies/scripts
+      - run: uv run --no-project skills/oblique-strategies/scripts/draw.py

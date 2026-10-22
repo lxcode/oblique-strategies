@@ -1,0 +1,31 @@
+# Original prompts in the spirit of Oblique Strategies. One per line.
+Delete the part you're most proud of.
+What would this look like with no configuration?
+Solve the problem one layer up.
+Solve the problem one layer down.
+Make it worse on purpose, then notice which way is "worse."
+Who is the second user of this code?
+Replace the abstraction with three copies.
+What is the test you are avoiding writing?
+Do the boring version.
+Explain it to the log file.
+Assume the bug is in the code you trust most.
+What did you decide before you started?
+Run it a thousand times.
+Change the order.
+What would you ship if it had to go out in an hour?
+Remove a dependency.
+Read the error message again, slowly.
+Undo the last three changes and look.
+Ask what the data actually looks like.
+Make the invisible state visible.
+Which constraint is imaginary?
+Do it by hand once.
+Shrink the input until it stops failing.
+What would the person who wrote this originally have done?
+Stop fixing. Start measuring.
+Name the thing you keep calling "it."
+Turn the question around.
+Build the smallest thing that is wrong in an interesting way.
+Leave it alone and work on its neighbor.
+What happens at zero? At one? At infinity?
