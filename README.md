@@ -3,9 +3,6 @@
 A Claude Code plugin. When work stalls on a judgment call, Claude draws a random
 Oblique Strategies card and asks you whether to apply it.
 
-This repo is private. The bundled deck is Brian Eno and Peter Schmidt's
-Oblique Strategies, which is copyrighted. Do not make the repo public.
-
 ## Behavior
 
 - Triggers when a decision flips back and forth, an approach stalls despite evidence,
