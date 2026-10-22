@@ -1,7 +1,10 @@
 # oblique-strategies
 
 A Claude Code plugin. When work stalls on a judgment call, Claude draws a random
-lateral-thinking card and asks you whether to apply it.
+Oblique Strategies card and asks you whether to apply it.
+
+This repo is private. The bundled deck is Brian Eno and Peter Schmidt's
+Oblique Strategies, which is copyrighted. Do not make the repo public.
 
 ## Behavior
 
@@ -20,16 +23,11 @@ lateral-thinking card and asks you whether to apply it.
 /plugin install oblique-strategies@oblique-strategies
 ```
 
-Requires [uv](https://docs.astral.sh/uv/).
+Requires [uv](https://docs.astral.sh/uv/) and GitHub access to this repo.
 
-## Decks
+## Deck
 
-`skills/oblique-strategies/decks/engineering.txt` is an original deck and ships with the plugin.
-
-The Eno/Schmidt deck is copyrighted and not included.
-To use it, transcribe your own copy into `~/.config/oblique-strategies/eno.txt`
-(or `$XDG_CONFIG_HOME/oblique-strategies/eno.txt`), one card per line.
-The script prefers it when present. That location survives plugin updates.
+`skills/oblique-strategies/decks/eno.txt`, one card per line. Lines starting with `#` are comments.
 
 ## Development
 
