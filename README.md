@@ -27,8 +27,9 @@ Requires [uv](https://docs.astral.sh/uv/).
 `skills/oblique-strategies/decks/engineering.txt` is an original deck and ships with the plugin.
 
 The Eno/Schmidt deck is copyrighted and not included.
-To use it, transcribe your own copy into `skills/oblique-strategies/decks/eno.txt`,
-one card per line. The script prefers it when present. It is gitignored.
+To use it, transcribe your own copy into `~/.config/oblique-strategies/eno.txt`
+(or `$XDG_CONFIG_HOME/oblique-strategies/eno.txt`), one card per line.
+The script prefers it when present. That location survives plugin updates.
 
 ## Development
 
