@@ -1,7 +1,7 @@
 # oblique-strategies
 
 A Claude Code plugin. When work stalls on a judgment call, Claude draws a random
-Oblique Strategies card and asks you whether to apply it.
+[Oblique Strategies](https://en.wikipedia.org/wiki/Oblique_Strategies) card and asks you whether to apply it.
 
 ## Behavior
 
